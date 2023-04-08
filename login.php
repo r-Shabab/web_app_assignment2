@@ -31,6 +31,30 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
       crossorigin="anonymous"/>
  </head>
  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shabab.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="btn btn-primary" type="button" href="index.php">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <section id="contact" class="py-5" id="contact">
       <div class="container">
         <div class="row">
